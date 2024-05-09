@@ -31,6 +31,7 @@ def get_dirlist(_rootdir):
 
 # Get subfolders recursively
 os.chdir('.')
+rootdir = ''
 packages = [d.replace('/', '.').replace('{}.'.format(rootdir), '') for d in get_dirlist(rootdir)]
 
 # Filter out Python cache folders
