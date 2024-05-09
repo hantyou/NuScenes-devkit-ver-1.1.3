@@ -2,7 +2,7 @@ import os
 
 import setuptools
 
-with open('../README.md', 'r') as fh:
+with open('./README.md', 'r') as fh:
     long_description = fh.read()
 
 # Since nuScenes 2.0 the requirements are stored in separate files.
